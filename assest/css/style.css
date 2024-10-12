@@ -1,0 +1,283 @@
+body {
+    background-color: beige;
+}
+
+.Head {
+    background-color: #d6cccc75 !important;
+}
+
+.navbar-nav {
+    justify-content: space-evenly;
+}
+
+.nav-link.active {
+    color: #8b79b5 !important;
+    border-bottom: 2px solid #8b79b5 !important;
+}
+.enquiry-btn{
+    padding: 10px;
+    font-weight: 500;
+    color:#fff;
+    background-color: #8b79b5;
+}
+.enquiry-btn:hover{
+    padding: 10px;
+    font-weight: 500;
+    color:#8b79b5;
+    background-color: yellow;
+}
+/* .btn {
+    padding: 10px 20px;
+    border: 1px solid black;
+    color: white;
+    background-color: grey;
+    justify-content: end;
+} */
+
+.about-us {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.content {
+    margin: 20px;
+}
+
+.home-project {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.home-pro {
+    border: 1px solid grey;
+    text-align: center;
+    margin: 10px;
+}
+
+.home-pro h5 {
+    width: fit-content;
+    margin: 10px;
+}
+.carrier{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer {
+    background-color: #d6cccc75;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.footer-title {
+    margin-top: 10px;
+    text-align: center;
+}
+.home-project{
+    padding-top: 40px; 
+    padding-bottom: 40px;
+}
+
+.address-div {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.social-icons a {
+    color: rgb(3, 3, 3);
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+.contact-div {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.contact-div a {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-bottom {
+    color: white;
+    background-color: #8b79b5;
+}
+
+.bottom p {
+    margin: 20px;
+}
+
+.abt-img {
+    width: 100%;
+}
+
+.view-all {
+    color: white;
+    margin-top: 20px;
+}
+
+/* .view-all button{
+    background-color: rgb(193, 153, 231);
+    color: black;
+}
+.view-all:hover{
+    color: white;
+} */
+.home-card {
+    padding: 30px 30px 10px 30px;
+    height: 450px;
+}
+
+.service {
+    background-image: url(/assest/image/overview-bg.webp);
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+.abt-service {
+    margin: 15px;
+}
+
+.card-title {
+    padding-top: 5px;
+}
+
+.card-text {
+    padding: 5px 15px 20px 15px;
+    line-height: normal;
+
+}
+
+.project-card {
+    margin: 15px;
+}
+/* .revealOnScroll {
+    opacity: 0
+} */
+.ongoing{
+    padding-top: 40px;
+    padding-bottom: 20px;   
+}
+.upcoming{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.completed{
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+.animatedScroll {
+    animation-duration: 1.2s;
+    animation-fill-mode: both
+}
+.carrier-form{
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+.read-more{
+color: red;
+text-decoration: none;
+}
+.completed{
+    position: relative;
+}
+.read-more:hover{
+    font-size:25px;
+}
+#completed-project.owl-nav .owl-prev{
+    position: absolute;
+    top: 120px;
+    font-size: 100px;
+    left: -25px;
+
+}
+#completed-project.owl-nav.owl-next{
+    position: absolute;
+    top: 120px;
+    font-size: 100px;
+    right: -25px;
+
+}
+.whatsapp-icon {
+    position: fixed;
+    bottom: 10px;
+    margin-bottom: 50px;
+    right: 0;
+    margin-right: 20px;
+    height: 55px;
+    width: 55px;
+    z-index: 1000;
+}
+/* .list-card img:hover {
+    transform: scale(1.1);
+    transition: transform 2s;
+} */
+
+@media(max-width:768px) {
+    #one button {
+        float: right;
+        margin-right: 10px;
+    }
+
+    #banner-carousel .owl-next {
+        display: none !important;
+    }
+
+    #banner-carousel .owl-prev {
+        display: none !important;
+
+    }
+
+    .footer-title {
+        text-align: center !important;
+    }
+
+    .footer-title h4 {
+        margin-top: 10px;
+    }
+
+    .contact-div {
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .nav-link.active {
+        border-bottom: none !important;
+    }
+    .mob-btn.fixed {
+        z-index: 99;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        overflow: hidden;
+        box-shadow: 0 -2px 20px rgba(0,0,0,.35);
+      }
+      .mob-btn.fixed a:first-child {
+        border-right: 2px solid #fff;
+      }
+      .mob-btn.fixed a {
+        width: 50%;
+        float: left;
+        height: 48px;
+        line-height: 48px;
+        text-align: center;
+        background: #8b79b5;
+        font-size: 16px;
+        text-decoration: none;
+        font-weight: 700;
+        color: #fff;
+      }
+      .footer-bottom {
+        padding-bottom: 40px;
+        color: white;
+        background-color: #8b79b5;
+    }
+    .home-card {
+        margin: 10px;
+        padding: 30px 30px 10px 30px;
+        height: 450px;
+    }    
+
+}
